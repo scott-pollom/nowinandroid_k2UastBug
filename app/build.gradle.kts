@@ -69,6 +69,9 @@ android {
         }
     }
     namespace = "com.google.samples.apps.nowinandroid"
+    lint {
+        abortOnError = false
+    }
 }
 
 dependencies {

@@ -16,6 +16,7 @@
 
 dependencyResolutionManagement {
     repositories {
+        maven(url = "/Users/spollom/android/studio-main/out/repo")
         google()
         mavenCentral()
     }

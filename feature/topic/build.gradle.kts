@@ -22,6 +22,7 @@ plugins {
 
 android {
     namespace = "com.google.samples.apps.nowinandroid.feature.topic"
+    experimentalProperties["android.lint.useK2Uast"] = true
 }
 
 dependencies {

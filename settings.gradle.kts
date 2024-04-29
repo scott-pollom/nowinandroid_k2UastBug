@@ -17,6 +17,7 @@
 pluginManagement {
     includeBuild("build-logic")
     repositories {
+        maven(url = "/Users/spollom/android/studio-main/out/repo")
         google()
         mavenCentral()
         gradlePluginPortal()
@@ -26,6 +27,7 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        maven(url = "/Users/spollom/android/studio-main/out/repo")
         google()
         mavenCentral()
     }
